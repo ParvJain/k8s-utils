@@ -6,6 +6,4 @@ This is a small utility tool to find missing environment variable for pod runnin
 
 ## Steps to run:
 make sure you have above requirements fullfilled then,
-### pip install -r requirements.txt
-and,
-### python main.py
+`pip install -r requirements.txt` then,`python main.py`
