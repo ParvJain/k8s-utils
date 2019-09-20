@@ -1,4 +1,4 @@
-This is a small utility tool to find missing environment variable for pod running on multiple clusters. 
+This is a small utility tool to find missing environment variable for pods running on different clusters. 
 
 ## Requirements:
 - Kubeconfig file on system where this tool will run.
