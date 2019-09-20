@@ -1,5 +1,4 @@
 from kubernetes import client, config
-import json
 import inquirer
 from terminaltables import AsciiTable
 from blessings import Terminal
@@ -54,6 +53,7 @@ def main():
     print("Select pod for second candidate.")
     b = get_pod(get_namespace(get_context()))
     b_env = {env.name:env.value for env in b['pod']}
+
     datapoints = [
         ["Data points", "Values"],
         [f"Environment variable in {a['context']} » {a['namespace']} » {a['pod_name']}", str(len(a_env.items()))],
